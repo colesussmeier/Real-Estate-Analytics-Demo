@@ -1,5 +1,5 @@
 ## Attention Please: Implementation of Self-Attention for Imputation of Time Series (SAITS) for Partially Observed Multivariate Real Estate Market Time Series Data
-<i> A proof-of-concept project using SAITS to impute missing values in publicly available time series data from Redfin and Zillow </i>
+<i> A proof-of-concept using SAITS to impute missing values in publicly available time series data from Redfin and Zillow </i>
 
 ![demo graph](images/SAITS_Graphic.png)
 
@@ -14,7 +14,7 @@ This project serves two purposes:
 2.	To clean and prepare data for time series forecasting
 
 ## Data Processing Pipeline
-Each box corresponds to a Jupyter notebook in the notebooks folder, and its associated output is stored in the data folder
+Each box corresponds to a Jupyter notebook in the notebooks folder, and its associated output is stored in the data folder (data folder not included on Github because the files are too large)
 
 ![pipeline](images/Processing.png)
 
