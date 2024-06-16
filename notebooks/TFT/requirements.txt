@@ -1,0 +1,32 @@
+
+# How to install dependencies: 
+
+
+# download c++ build tools
+
+
+# For a conda environment, run the following commands:
+
+#    cd "Documents\Real Estate Analytics Demo\notebooks\TFT" 
+
+#    conda create -n mytftenv python=3.10.12 pip
+
+#    conda create -n tftenv python=3.9 pip
+
+#    conda activate mytftenv
+
+#    conda install libpython m2w64-toolchain -c msys2
+
+#    pip install -r requirements.txt
+
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch
+pytorch_lightning
+pytorch_forecasting
+tensorboard==1.15.0
+pandas
+numpy==1.20.3 
+notebook
+ipywidgets
+protobuf==3.19.4
