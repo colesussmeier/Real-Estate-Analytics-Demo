@@ -1,4 +1,4 @@
-## Attention Please: Implementation of Self-Attention for Imputation of Time Series (SAITS) for Partially Observed Multivariate Real Estate Market Time Series Data
+## Attention Please: Implementation of Self-Attention for Imputation of Time Series (SAITS) for Partially Observed Multivariate Real Estate Market Data
 <i> A proof-of-concept using SAITS to impute missing values in publicly available time series data from Redfin and Zillow </i>
 
 ![demo graph](images/SAITS_Graphic.png)
@@ -35,9 +35,9 @@ The final mean absolute error (MAE) on the testing set was 0.0725. This is subst
 
 ## Next Steps: Time Series Forecasting
 
-The whole point of this project was to prepare data for time series forecasting by maximizing the retention of useful data, while also minimizing the bias introduced by imputation. By doing this, the hope was that the completed dataset could be used for training a forecasting model called the Temporal Fusion Transformer (TFT). Some of the code for this is included in the TFT section, but the results are not documented as it is beyond the scope of the imputation task.
+The whole point of this project was to prepare data for time series forecasting by maximizing the retention of useful data, while also minimizing the bias introduced by imputation. the completed dataset can now be used in a forecasting model called the Temporal Fusion Transformer (TFT). Some of the code for this is included in the TFT section, but the results are not documented as it is beyond the scope of the imputation task.
 
 
 ## Sources 
 
-Wenjie Du, David Cote, and Yan Liu. SAITS: Self-Attention-based Imputation for Time Series. Expert Systems with Applications, 219:119619, 2023.
+[Wenjie Du, David Cote, and Yan Liu. SAITS: Self-Attention-based Imputation for Time Series. Expert Systems with Applications, 219:119619, 2023.](https://www.sciencedirect.com/science/article/abs/pii/S0957417423001203?via%3Dihub)
