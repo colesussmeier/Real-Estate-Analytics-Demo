@@ -22,7 +22,7 @@ Each box corresponds to a Jupyter notebook in the notebooks folder, and its asso
 
 The following steps are done in the SAITS section of the notebooks folder:
 1.	Graph time series and save data frames with different amounts of data missing so it is easy to look at the before and after results of imputation
-2.	Create a custom artificial removal method to match the patterns in the observed data. There are many cases where there are consecutive missing values present in the data, so the removal method should attempt to match this so that the model can be optimize the correct objective
+2.	Create a custom artificial removal method to match the patterns in the observed data. There are many cases where there are consecutive missing values present in the data, so the removal method should attempt to match this so that the model can optimize the correct objective
 3.	Create a custom data loader to create training, validation, and testing sets in the format that SAITS needs to run
 4.	Run SAITS and experiment with hyperparameters to get optimal results
 5.	Create a baseline model with last observation carried forward (LOCF) to compare results
