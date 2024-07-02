@@ -35,7 +35,7 @@ The final mean absolute error (MAE) on the testing set was 0.0725. This is subst
 
 ## Next Steps: Time Series Forecasting
 
-The whole point of this project was to prepare data for time series forecasting by maximizing the retention of useful data, while also minimizing the bias introduced by imputation. the completed dataset can now be used in a forecasting model called the Temporal Fusion Transformer (TFT). Some of the code for this is included in the TFT section, but the results are not documented as it is beyond the scope of the imputation task.
+The whole point of this project was to prepare data for time series forecasting by maximizing the retention of useful data, while also minimizing the bias introduced by imputation. The completed dataset can now be used in a forecasting model called the Temporal Fusion Transformer (TFT). Some of the code for this is included in the TFT section, but the results are not documented as it is beyond the scope of the imputation task.
 
 
 ## Sources 
